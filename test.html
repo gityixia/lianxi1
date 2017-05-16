@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+</head>
+<body>
+选择题：<br>
+	1、B
+	2、A
+	3、A
+	4、B
+	5、C
+	6、C
+	7、D
+	8、A
+	9、C
+	10、A
+	11、D
+	12、A
+	13、D
+	14、A
+	15、A
+	16、D
+	17、D
+	18、B
+	19、A
+	20、C
+	21、A
+	22、B
+	23、C
+	24、A
+	25、D
+	<br>
+简答题：<br>
+1、px是像素，是固定的单位<br>
+   em是相对的单位<br>
+2、CSS sprite是将多张图片整合到一张图片上面，然后根据每张图片的background-position来确定每张图片自己的位置<br>
+3、div是块元素，可以设置宽高<br>
+   span是行内元素，不能设置宽高，其宽高由自身内容决定<br>
+4、opacity:表示透明度，值是0~1之间，0表示完全透明，1表示完全不透明<br>
+   rgba:是颜色的一种表示方法，r是红色，g是绿色，b是蓝色，a是表示颜色透明度的，值也是在0~1之间，0表示完全透明，1表示完全不透明<br>
+5、meter里面关键词和描述里有这个属性，用来编辑具体内容<br>
+	伪元素里面也有这个属性,用来编辑要添加的内容
+	i::after{content"";}<br>
+6、上下两个div之间的距离就是上面div的margin-bottom，30px<br>
+    如果下面div的margin-top为50px,那么两者之间的距离则为50px，因为两个div都是块元素，两者的margin会重合<br>
+7、滑动门的使用：滑动门是一开始它是隐藏起来的，只有点击了相关的链接以后它才会滑出来<br>
+    写一个a链接，后紧跟一个div,这个div就是我们要设置的滑动门，给div的display:none;给a设置a:hover div{display:block}即可完成滑动门的设置<br>
+8、meta是出现在head中的，它里面的内容是给服务器看的，常用的就是编码方式、关键字、描述等<br>
+9、行内元素：span、i<br>
+   块级元素：p、h1~h6、div<br>
+   区别：<br>
+   行内元素不能设置宽高，其宽高由自身内容决定<br>
+   块级元素可以设置宽高<br>
+   联系：<br>
+   两者之间可以进行转化：通过给display设置inline、block、inline-block属性进行转化<br>
+   
+10、<br>
+<style>
+		.head{
+			background-color: red;
+			width: 200px;
+			height:500px;
+			float:left;
+		}
+		.cont{
+			background-color: green;
+			height:500px;
+			float:left;
+		}
+
+		.foot{
+			background-color: blue;
+			width: 200px;
+			height:500px;
+			float:right;
+		}
+	</style>
+	<div class="head"></div>
+	<div class="cont"></div>
+	<div class="foot"></div>
+
