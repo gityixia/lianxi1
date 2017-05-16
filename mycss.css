@@ -1,0 +1,284 @@
+body{
+	width:700px;
+	margin:0 auto;
+}
+/*页面主线*/
+.header{
+	height:40px;
+	width:86%;
+	margin-top:20px;
+	position:relative;
+}
+.header .ybd{
+	width:50px;
+	position:absolute;
+	top:0px;
+	left:80px;
+}
+.header span{
+	display:inline-block;
+	font-size:16px;
+	color:#8d8d8d;
+	position:absolute;
+	top:8px;
+	left:140px;
+}
+.header .ajk{
+	width:80px;
+	position:absolute;
+	top:0px;
+	left:300px;
+}
+.header .yqhy{
+	width:80px;
+	position:absolute;
+	top:0px;
+	left:550px;
+}
+.header img:hover{
+	top:-3px;
+}
+/*导航图片*/
+.banner{
+	text-align: center;
+	margin-top:10px;
+}
+.banner img{
+	width:85%;
+}
+/*页面导航*/
+.word ul li{
+	display: inline-block;
+    padding:5px;
+    width:210px;
+    height:50px;
+    margin-top:10px;
+    margin-right: 10px;
+    color:red;
+    font-size:2em;
+    text-align:center;
+}
+.word ul li a:hover{
+	text-decoration: none;
+	font-size:1.2em;
+	background:url("images/health-line.png") no-repeat bottom;
+	background-size:4em;
+}
+.word ul .l1{
+	color:deeppink;
+}
+.word ul .l2{
+	color:green;
+	font-size:1.2em;
+	background:url("images/health-line.png") no-repeat bottom;
+	background-size:4em;
+}
+.word ul .l3{
+	color:deepskyblue;
+}
+/*主体标签*/
+.nav{
+	height: 50px;
+	width: 100%;
+}
+.nav ul{
+	display:inline-block;
+	width:100%;
+	text-align: center;
+}
+.nav ul li{
+	display:inline-block;
+	background:#c3c3c3;
+	width:100px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	margin:10px;
+	border-radius:5px;
+}
+.nav ul li a{
+	color:white;
+}
+.nav ul li a:hover{
+	text-decoration:none;
+}
+.nav ul li:hover{
+	background:#57b648;
+}
+/*表格部分*/
+.table table{
+	height:100px;
+	width:70%;
+	margin:0 auto;
+}
+.table table tr td img{
+	width:190px;
+	height:130px;
+	margin:8px;
+}
+/*优惠中心*/
+.yhzx{
+	height:40px;
+	width:86%;
+	background:#57b648;
+	margin:0 auto;
+	margin-top:10px;
+	position:relative;
+}
+.yhzx:hover{
+	background:skyblue;
+}
+.yhzx a{
+	display:inline-block;
+	height:40px;
+	line-height: 40px;
+	color:white;
+	font-size:18px;
+	text-align: center;
+	position:absolute;
+	top:0px;
+	left:260px;
+}
+.yhzx a:hover{
+	text-decoration:none;
+}
+.yhzx span{
+ 	display:inline-block;
+	text-align: center;
+}
+.yhzx .span-left{
+	position:absolute;
+	top:10px;
+	left:220px;
+}
+.yhzx .span-right{
+	position:absolute;
+	top:10px;
+	left:360px;
+}
+/*HOT活动*/
+.hot{
+	margin-top:60px;
+	text-align:center;
+	position:relative;
+}
+.hot i,.news i{
+	display:inline-block;
+	width:4px;
+	height:18px;
+	background:orange;
+	position:absolute;
+	top:-25px;
+	left:50px;
+}
+.hot .bt,.news .bt{
+	font-size:18px;
+	color:orange;
+	position:absolute;
+	top:-28px;
+	left:60px;
+}
+.hot .activity{
+	width:86%;
+	height:180px;
+	margin:0 auto;
+	background:url("images/hot-activity.png") no-repeat center top;
+	position:relative;
+}
+.hot .lplq{
+	display:inline-block;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	width:100%;
+	background:#aea9a2;
+	font-size:20px;
+	color:white;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.hot a:hover{
+	text-decoration:none;
+	color:orange;
+}
+/*热点资讯*/
+.news{
+	width:86%px;
+	height:200px;
+	margin-top:60px;
+	text-align:center;
+	position:relative;
+}
+.news .zx{
+	display:inline-block;
+	width:200px;
+	border:1px solid #8a8a8a;
+	position:absolute;
+	top:0px;
+	left:50px;
+}
+.news .zixun{
+	color:#4d4d4d;
+	width:370px;
+	height:177px;
+	font-size:22px;
+	text-align:left;
+	position:absolute;
+	top:0px;
+	left:280px;
+	border-bottom:1px solid rgba(147,147,147,.7);
+}
+.news img{
+	display:inline-block;
+	width:23px;
+	position:absolute;
+	top:130px;
+	left:280px;
+}
+.news  a{
+	display:inline-block;
+	color:orange;
+	font-size: 20px;
+	position:absolute;
+	top:130px;
+	left:310px;
+}
+/*在线客服*/
+.footer{
+	margin-top:15px;
+	height:50px;
+	width:86%;
+	position:relative;
+}
+.footer a{
+	display:inline-block;
+	color:#93d385;
+	font-size:20px;
+	position:absolute;
+	top:10px;
+	left:300px;
+}
+.footer a img{
+	width:20px;
+}
+.footer a::after{
+	content:""; 
+	display:inline-block;
+	width:220px; 
+	height:1px; 
+	background:rgba(147,147,147,.7);
+	position:absolute;
+	top:10px; 
+	left:-250px;
+}
+.footer a::before{
+	content:""; 
+	display:inline-block;
+	width:220px; 
+	height:1px; 
+	background:rgba(147,147,147,.7);
+	position:absolute;
+	top:10px; 
+	left:130px;
+}
